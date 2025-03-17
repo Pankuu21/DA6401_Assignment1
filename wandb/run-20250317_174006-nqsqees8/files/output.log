@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\Q10.py", line 127, in <module>
+    train_mnist(config)
+  File "C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\Q10.py", line 16, in train_mnist
+    X_train, Y_train, X_val, Y_val, X_test, Y_test = load_data("mnist")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 6)

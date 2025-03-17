@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\Q8.py", line 148, in <module>
+    train_best_model_with_losses()
+  File "C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\Q8.py", line 142, in train_best_model_with_losses
+    train_with_loss_function("cross_entropy", best_config)
+  File "C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\Q8.py", line 44, in train_with_loss_function
+    X_train, Y_train, X_val, Y_val, X_test, Y_test = load_data("fashion_mnist")
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: load_data() takes 0 positional arguments but 1 was given

@@ -1,0 +1,35 @@
+2025-03-17 19:32:27,840 INFO    MainThread:27692 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\wandb\run-20250317_193227-9sop859r\logs\debug.log
+2025-03-17 19:32:27,841 INFO    MainThread:27692 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\wandb\run-20250317_193227-9sop859r\logs\debug-internal.log
+2025-03-17 19:32:27,841 INFO    MainThread:27692 [wandb_init.py:init():761] calling init triggers
+2025-03-17 19:32:27,841 INFO    MainThread:27692 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-17 19:32:27,841 INFO    MainThread:27692 [wandb_init.py:init():784] starting backend
+2025-03-17 19:32:27,841 INFO    MainThread:27692 [wandb_init.py:init():788] sending inform_init request
+2025-03-17 19:32:27,849 INFO    MainThread:27692 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-03-17 19:32:27,851 INFO    MainThread:27692 [wandb_init.py:init():798] backend started and connected
+2025-03-17 19:32:27,854 INFO    MainThread:27692 [wandb_init.py:init():891] updated telemetry
+2025-03-17 19:32:27,977 INFO    MainThread:27692 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-17 19:32:29,279 INFO    MainThread:27692 [wandb_init.py:init():990] starting run threads in backend
+2025-03-17 19:32:29,921 INFO    MainThread:27692 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-17 19:32:29,921 INFO    MainThread:27692 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-17 19:32:29,921 INFO    MainThread:27692 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-17 19:32:29,922 INFO    MainThread:27692 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-17 19:32:29,923 INFO    MainThread:27692 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-17 19:32:29,924 INFO    MainThread:27692 [wandb_run.py:_config_callback():1261] config_cb None None {'epochs': 10, 'optimizer': 'nadam', 'activation': 'sigmoid', 'batch_size': 64, 'num_layers': 3, 'hidden_size': 128, 'weight_init': 'xavier', 'weight_decay': 0.0005, 'learning_rate': 0.001}
+2025-03-17 19:33:39,628 INFO    MainThread:27692 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'cross_entropy_confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'cross_entropy_confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-17 19:33:40,411 INFO    MainThread:27692 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\wandb\run-20250317_193340-sjl9ibw1\logs\debug.log
+2025-03-17 19:33:40,412 INFO    MainThread:27692 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\wandb\run-20250317_193340-sjl9ibw1\logs\debug-internal.log
+2025-03-17 19:33:40,412 INFO    MainThread:27692 [wandb_init.py:init():761] calling init triggers
+2025-03-17 19:33:40,412 INFO    MainThread:27692 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-17 19:33:40,412 INFO    MainThread:27692 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-17 19:33:40,414 INFO    MainThread:27692 [wandb_run.py:_config_callback():1261] config_cb None None {'epochs': 10, 'optimizer': 'nadam', 'activation': 'sigmoid', 'batch_size': 64, 'num_layers': 3, 'hidden_size': 128, 'weight_init': 'xavier', 'weight_decay': 0.0005, 'learning_rate': 0.001}
+2025-03-17 19:34:52,365 INFO    MainThread:27692 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'mean_squared_error_confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'mean_squared_error_confusion_matrix_table'}], 'fields': []}]}]}}} None
+2025-03-17 19:34:52,799 INFO    MainThread:27692 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\wandb\run-20250317_193452-3xbi5qw7\logs\debug.log
+2025-03-17 19:34:52,800 INFO    MainThread:27692 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\wandb\run-20250317_193452-3xbi5qw7\logs\debug-internal.log
+2025-03-17 19:34:52,800 INFO    MainThread:27692 [wandb_init.py:init():761] calling init triggers
+2025-03-17 19:34:52,800 INFO    MainThread:27692 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-03-17 19:34:52,801 INFO    MainThread:27692 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-17 19:34:52,829 INFO    MainThread:27692 [wandb_run.py:_config_callback():1261] config_cb ('_wandb', 'visualize', 'training_loss_comparison') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/lineseries/v0', 'fieldSettings': {'step': 'step', 'lineKey': 'lineKey', 'lineVal': 'lineVal'}, 'stringSettings': {'title': 'Training Loss Comparison', 'xname': 'Epochs'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'training_loss_comparison_table'}], 'fields': []}]}]}}} None
+2025-03-17 19:34:54,085 INFO    MsgRouterThr:27692 [mailbox.py:close():129] Closing mailbox, abandoning 4 handles.

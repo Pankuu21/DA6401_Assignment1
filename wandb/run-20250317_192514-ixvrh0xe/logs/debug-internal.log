@@ -1,0 +1,16 @@
+{"time":"2025-03-17T19:25:14.9231504+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\pankaj\\Desktop\\dl\\DA6401_Assignment1\\final_DL\\wandb\\run-20250317_192514-ixvrh0xe\\logs\\debug-core.log"}
+{"time":"2025-03-17T19:25:15.8568044+05:30","level":"INFO","msg":"created new stream","id":"ixvrh0xe"}
+{"time":"2025-03-17T19:25:15.8568044+05:30","level":"INFO","msg":"handler: started","stream_id":"ixvrh0xe"}
+{"time":"2025-03-17T19:25:15.8568044+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ixvrh0xe"}
+{"time":"2025-03-17T19:25:15.8568044+05:30","level":"INFO","msg":"sender: started","stream_id":"ixvrh0xe"}
+{"time":"2025-03-17T19:25:15.8568044+05:30","level":"INFO","msg":"stream: started","id":"ixvrh0xe"}
+{"time":"2025-03-17T19:25:16.3619523+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T19:25:19.7525741+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T19:25:19.7575633+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T19:25:20.8066863+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-ixvrh0xe-fashion_mnist_samples","runtime_seconds":2.1621703,"subtasks":[{"desc":"media/images/2f3533f1e35349602fbf.png","runtime_seconds":0.7918101,"progress":"424B/424B"},{"desc":"media/images/963ba51db79d1749d622.png","runtime_seconds":0.7918101,"progress":"681B/681B"},{"desc":"media/images/e299594dc1f79f8e69c6.png","runtime_seconds":0.7918101,"progress":"560B/560B"},{"desc":"media/images/371b9ca6251d7713e342.png","runtime_seconds":0.7872986,"progress":"590B/590B"},{"desc":"media/images/ec27abb9c90f3f86f75e.png","runtime_seconds":0.7872986,"progress":"609B/609B"},{"desc":"media/images/b9ad6d099cc8fb89cc2e.png","runtime_seconds":0.7566757,"progress":"503B/503B"},{"desc":"media/images/d830d9f128e04678499e.png","runtime_seconds":0.7566757,"progress":"631B/631B"},{"desc":"media/images/95789bb1ac140460cefc.png","runtime_seconds":0.7556764,"progress":"374B/374B"},{"desc":"media/images/ca75c4f2b51a3023f292.png","runtime_seconds":0.7238302,"progress":"523B/523B"},{"desc":"media/images/ccb47dff4477d8492326.png","runtime_seconds":0.7228217,"progress":"574B/574B"}]},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4842449,"progress":"1.5KB/1.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.0744838,"progress":"521B/521B"}],"total_operations":3}}
+{"time":"2025-03-17T19:25:22.7159082+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T19:25:23.0763092+05:30","level":"INFO","msg":"stream: closing","id":"ixvrh0xe"}
+{"time":"2025-03-17T19:25:23.0763092+05:30","level":"INFO","msg":"handler: closed","stream_id":"ixvrh0xe"}
+{"time":"2025-03-17T19:25:23.0763092+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ixvrh0xe"}
+{"time":"2025-03-17T19:25:23.0768363+05:30","level":"INFO","msg":"sender: closed","stream_id":"ixvrh0xe"}
+{"time":"2025-03-17T19:25:23.0773812+05:30","level":"INFO","msg":"stream: closed","id":"ixvrh0xe"}

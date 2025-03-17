@@ -1,0 +1,24 @@
+Dataset: mnist
+Train set: 48000 examples
+Validation set: 12000 examples
+Test set: 10000 examples
+Traceback (most recent call last):
+  File "C:\Users\pankaj\anaconda3\envs\Myenv\Lib\site-packages\wandb\sdk\wandb_config.py", line 165, in __getattr__
+    return self.__getitem__(key)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pankaj\anaconda3\envs\Myenv\Lib\site-packages\wandb\sdk\wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+           ~~~~~~~~~~~^^^^^
+KeyError: 'momentum'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\Q10.py", line 127, in <module>
+    train_mnist(config)
+  File "C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\Q10.py", line 68, in train_mnist
+    "beta": config.momentum,
+            ^^^^^^^^^^^^^^^
+  File "C:\Users\pankaj\anaconda3\envs\Myenv\Lib\site-packages\wandb\sdk\wandb_config.py", line 167, in __getattr__
+    raise AttributeError(
+AttributeError: <class 'wandb.sdk.wandb_config.Config'> object has no attribute 'momentum'

@@ -1,0 +1,9 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Dataset: fashion_mnist
+Train set: 48000 examples
+Validation set: 12000 examples
+Test set: 10000 examples
+Dataset: fashion_mnist
+Train set: 48000 examples
+Validation set: 12000 examples
+Test set: 10000 examples

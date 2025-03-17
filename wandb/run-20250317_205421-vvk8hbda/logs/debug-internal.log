@@ -1,0 +1,17 @@
+{"time":"2025-03-17T20:54:21.1434156+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\pankaj\\Desktop\\dl\\DA6401_Assignment1\\final_DL\\wandb\\run-20250317_205421-vvk8hbda\\logs\\debug-core.log"}
+{"time":"2025-03-17T20:54:22.3669715+05:30","level":"INFO","msg":"created new stream","id":"vvk8hbda"}
+{"time":"2025-03-17T20:54:22.3669715+05:30","level":"INFO","msg":"stream: started","id":"vvk8hbda"}
+{"time":"2025-03-17T20:54:22.3669715+05:30","level":"INFO","msg":"sender: started","stream_id":"vvk8hbda"}
+{"time":"2025-03-17T20:54:22.3675283+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vvk8hbda"}
+{"time":"2025-03-17T20:54:22.3669715+05:30","level":"INFO","msg":"handler: started","stream_id":"vvk8hbda"}
+{"time":"2025-03-17T20:54:22.6875667+05:30","level":"ERROR","msg":"HTTP error","status":403,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-17T20:54:22.7223367+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 403: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"permission denied\",\"path\":[\"upsertBucket\"],\"extensions\":{\"code\":\"PERMISSION_ERROR\"}}]}"}
+{"time":"2025-03-17T20:54:23.7557989+05:30","level":"INFO","msg":"stream: closing","id":"vvk8hbda"}
+{"time":"2025-03-17T20:54:23.7560682+05:30","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-03-17T20:54:24.0754537+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-17T20:54:24.0935371+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project myname/myprojectname not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-03-17T20:54:24.2385238+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T20:54:24.2385238+05:30","level":"INFO","msg":"handler: closed","stream_id":"vvk8hbda"}
+{"time":"2025-03-17T20:54:24.2385238+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"vvk8hbda"}
+{"time":"2025-03-17T20:54:24.2385238+05:30","level":"INFO","msg":"sender: closed","stream_id":"vvk8hbda"}
+{"time":"2025-03-17T20:54:24.2390861+05:30","level":"INFO","msg":"stream: closed","id":"vvk8hbda"}

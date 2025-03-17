@@ -1,0 +1,10 @@
+[34m[1mwandb[0m: Sorting runs by -summary_metrics.val_accuracy
+✅ Best run found: 0.90167_hl_3_bs_64_ac_sigmoid_wd_0.0005_lr_0.001_opt_nadam_wi_xavier
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Traceback (most recent call last):
+  File "C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\Q7.py", line 129, in <module>
+    train_best_model()
+  File "C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\Q7.py", line 48, in train_best_model
+    X_train, Y_train, X_test, Y_test, y_test = load_data()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 5)

@@ -1,0 +1,15 @@
+{"time":"2025-03-17T19:24:36.3023386+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\pankaj\\Desktop\\dl\\DA6401_Assignment1\\final_DL\\wandb\\run-20250317_192436-gtrx7vt8\\logs\\debug-core.log"}
+{"time":"2025-03-17T19:24:37.5201781+05:30","level":"INFO","msg":"created new stream","id":"gtrx7vt8"}
+{"time":"2025-03-17T19:24:37.5201781+05:30","level":"INFO","msg":"stream: started","id":"gtrx7vt8"}
+{"time":"2025-03-17T19:24:37.5201781+05:30","level":"INFO","msg":"handler: started","stream_id":"gtrx7vt8"}
+{"time":"2025-03-17T19:24:37.5201781+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gtrx7vt8"}
+{"time":"2025-03-17T19:24:37.522709+05:30","level":"INFO","msg":"sender: started","stream_id":"gtrx7vt8"}
+{"time":"2025-03-17T19:24:37.9634697+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T19:24:39.9389726+05:30","level":"INFO","msg":"stream: closing","id":"gtrx7vt8"}
+{"time":"2025-03-17T19:24:39.9389726+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T19:24:39.9394824+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T19:24:40.9558111+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T19:24:41.4312338+05:30","level":"INFO","msg":"handler: closed","stream_id":"gtrx7vt8"}
+{"time":"2025-03-17T19:24:41.4312338+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gtrx7vt8"}
+{"time":"2025-03-17T19:24:41.4312338+05:30","level":"INFO","msg":"sender: closed","stream_id":"gtrx7vt8"}
+{"time":"2025-03-17T19:24:41.4318296+05:30","level":"INFO","msg":"stream: closed","id":"gtrx7vt8"}

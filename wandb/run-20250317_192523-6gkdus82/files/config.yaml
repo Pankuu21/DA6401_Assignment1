@@ -1,0 +1,76 @@
+_wandb:
+    value:
+        cli_version: 0.19.8
+        m: []
+        python_version: 3.11.3
+        t:
+            "1":
+                - 2
+                - 3
+                - 55
+            "2":
+                - 2
+                - 3
+                - 55
+            "3":
+                - 17
+                - 23
+                - 55
+            "4": 3.11.3
+            "5": 0.19.8
+            "8":
+                - 3
+                - 5
+            "10":
+                - 3
+            "12": 0.19.8
+            "13": windows-amd64
+        visualize:
+            conf_mat:
+                panel_config:
+                    fieldSettings:
+                        Actual: Actual
+                        Predicted: Predicted
+                        nPredictions: nPredictions
+                    panelDefId: wandb/confusion_matrix/v1
+                    stringSettings:
+                        title: Confusion Matrix Curve
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: conf_mat_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+activation:
+    value: sigmoid
+batch_size:
+    value: 64
+epochs:
+    value: 10
+hidden_size:
+    value: 128
+learning_rate:
+    value: 0.001
+num_layers:
+    value: 3
+optimizer:
+    value: nadam
+weight_decay:
+    value: 0.0005
+weight_init:
+    value: xavier

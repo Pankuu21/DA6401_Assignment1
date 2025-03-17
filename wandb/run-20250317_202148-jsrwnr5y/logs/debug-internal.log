@@ -1,0 +1,16 @@
+{"time":"2025-03-17T20:21:48.1898461+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\pankaj\\Desktop\\dl\\DA6401_Assignment1\\final_DL\\wandb\\run-20250317_202148-jsrwnr5y\\logs\\debug-core.log"}
+{"time":"2025-03-17T20:21:48.6651631+05:30","level":"INFO","msg":"created new stream","id":"jsrwnr5y"}
+{"time":"2025-03-17T20:21:48.6658593+05:30","level":"INFO","msg":"stream: started","id":"jsrwnr5y"}
+{"time":"2025-03-17T20:21:48.666444+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"jsrwnr5y"}
+{"time":"2025-03-17T20:21:48.6671731+05:30","level":"INFO","msg":"sender: started","stream_id":"jsrwnr5y"}
+{"time":"2025-03-17T20:21:48.666444+05:30","level":"INFO","msg":"handler: started","stream_id":"jsrwnr5y"}
+{"time":"2025-03-17T20:21:49.5283461+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-17T20:21:52.5565771+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-17T20:21:52.5580296+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-17T20:21:53.5833386+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-jsrwnr5y-fashion_mnist_samples","runtime_seconds":1.8673265,"subtasks":[{"desc":"media/images/b9ad6d099cc8fb89cc2e.png","runtime_seconds":0.3838187,"progress":"503B/503B"},{"desc":"media/images/ca75c4f2b51a3023f292.png","runtime_seconds":0.3838187,"progress":"523B/523B"},{"desc":"media/images/ccb47dff4477d8492326.png","runtime_seconds":0.3838187,"progress":"574B/574B"},{"desc":"fashion_mnist_samples.table.json","runtime_seconds":0.3829643,"progress":"3.1KB/3.1KB"},{"desc":"media/images/95789bb1ac140460cefc.png","runtime_seconds":0.3829643,"progress":"374B/374B"},{"desc":"media/images/ec27abb9c90f3f86f75e.png","runtime_seconds":0.3815699,"progress":"609B/609B"},{"desc":"media/images/e299594dc1f79f8e69c6.png","runtime_seconds":0.3815699,"progress":"560B/560B"},{"desc":"media/images/2f3533f1e35349602fbf.png","runtime_seconds":0.3805513,"progress":"424B/424B"},{"desc":"media/images/371b9ca6251d7713e342.png","runtime_seconds":0.3805513,"progress":"590B/590B"},{"desc":"media/images/963ba51db79d1749d622.png","runtime_seconds":0.3804186,"progress":"681B/681B"}]},{"desc":"uploading media\\images\\class_examples_1_65989982ca9140b3494a.png","runtime_seconds":0.7379248,"progress":"523B/523B"},{"desc":"uploading config.yaml","runtime_seconds":0.3569122,"progress":"521B/521B"}],"total_operations":3}}
+{"time":"2025-03-17T20:21:55.9585536+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-17T20:21:56.3737532+05:30","level":"INFO","msg":"stream: closing","id":"jsrwnr5y"}
+{"time":"2025-03-17T20:21:56.3737532+05:30","level":"INFO","msg":"handler: closed","stream_id":"jsrwnr5y"}
+{"time":"2025-03-17T20:21:56.3737532+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"jsrwnr5y"}
+{"time":"2025-03-17T20:21:56.3737532+05:30","level":"INFO","msg":"sender: closed","stream_id":"jsrwnr5y"}
+{"time":"2025-03-17T20:21:56.3742962+05:30","level":"INFO","msg":"stream: closed","id":"jsrwnr5y"}

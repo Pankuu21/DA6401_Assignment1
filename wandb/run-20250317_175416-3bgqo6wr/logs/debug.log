@@ -1,0 +1,18 @@
+2025-03-17 17:54:16,216 INFO    MainThread:24900 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\wandb\run-20250317_175416-3bgqo6wr\logs\debug.log
+2025-03-17 17:54:16,217 INFO    MainThread:24900 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\wandb\run-20250317_175416-3bgqo6wr\logs\debug-internal.log
+2025-03-17 17:54:16,218 INFO    MainThread:24900 [wandb_init.py:init():761] calling init triggers
+2025-03-17 17:54:16,218 INFO    MainThread:24900 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'num_layers': 2, 'hidden_size': 128, 'activation': 'ReLU', 'optimizer': 'adam', 'learning_rate': 0.001, 'weight_init': 'Xavier', 'loss': 'cross_entropy', 'epochs': 10, 'batch_size': 32, '_wandb': {}}
+2025-03-17 17:54:16,219 INFO    MainThread:24900 [wandb_init.py:init():784] starting backend
+2025-03-17 17:54:16,220 INFO    MainThread:24900 [wandb_init.py:init():788] sending inform_init request
+2025-03-17 17:54:16,232 INFO    MainThread:24900 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-03-17 17:54:16,233 INFO    MainThread:24900 [wandb_init.py:init():798] backend started and connected
+2025-03-17 17:54:16,243 INFO    MainThread:24900 [wandb_init.py:init():891] updated telemetry
+2025-03-17 17:54:16,370 INFO    MainThread:24900 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-03-17 17:54:17,767 INFO    MainThread:24900 [wandb_init.py:init():990] starting run threads in backend
+2025-03-17 17:54:18,516 INFO    MainThread:24900 [wandb_run.py:_console_start():2375] atexit reg
+2025-03-17 17:54:18,517 INFO    MainThread:24900 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-17 17:54:18,517 INFO    MainThread:24900 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-17 17:54:18,517 INFO    MainThread:24900 [wandb_run.py:_redirect():2315] Redirects installed.
+2025-03-17 17:54:18,518 INFO    MainThread:24900 [wandb_init.py:init():1032] run started, returning control to user process
+2025-03-17 17:54:22,877 INFO    MsgRouterThr:24900 [mailbox.py:close():129] Closing mailbox, abandoning 2 handles.

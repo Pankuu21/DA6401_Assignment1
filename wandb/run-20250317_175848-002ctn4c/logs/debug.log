@@ -1,0 +1,13 @@
+2025-03-17 17:58:48,899 INFO    MainThread:7092 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\wandb\run-20250317_175848-002ctn4c\logs\debug.log
+2025-03-17 17:58:48,900 INFO    MainThread:7092 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\wandb\run-20250317_175848-002ctn4c\logs\debug-internal.log
+2025-03-17 17:58:48,900 INFO    MainThread:7092 [wandb_init.py:init():761] calling init triggers
+2025-03-17 17:58:48,901 INFO    MainThread:7092 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'num_layers': 3, 'hidden_size': 64, 'activation': 'tanh', 'optimizer': 'rmsprop', 'learning_rate': 0.0005, 'weight_init': 'random', 'loss': 'cross_entropy', 'epochs': 10, 'batch_size': 32, 'momentum': 0.9, 'beta1': 0.9, 'beta2': 0.999, 'epsilon': 1e-08, '_wandb': {}}
+2025-03-17 17:58:48,901 INFO    MainThread:7092 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-17 17:59:45,143 INFO    MainThread:7092 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\wandb\run-20250317_175945-4uh0w70q\logs\debug.log
+2025-03-17 17:59:45,144 INFO    MainThread:7092 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\wandb\run-20250317_175945-4uh0w70q\logs\debug-internal.log
+2025-03-17 17:59:45,144 INFO    MainThread:7092 [wandb_init.py:init():761] calling init triggers
+2025-03-17 17:59:45,144 INFO    MainThread:7092 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'num_layers': 1, 'hidden_size': 256, 'activation': 'sigmoid', 'optimizer': 'momentum', 'learning_rate': 0.01, 'weight_init': 'Xavier', 'loss': 'mean_squared_error', 'epochs': 10, 'batch_size': 32, 'momentum': 0.9, 'beta1': 0.9, 'beta2': 0.999, 'epsilon': 1e-08, '_wandb': {}}
+2025-03-17 17:59:45,145 INFO    MainThread:7092 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-17 18:00:44,461 INFO    MsgRouterThr:7092 [mailbox.py:close():129] Closing mailbox, abandoning 2 handles.

@@ -1,0 +1,38 @@
+[34m[1mwandb[0m: [32m[41mERROR[0m Could not find sweep <Sweep pankuu21-indian-institute-of-technology-madras/DA6401_Assignment1/your_sweep_id (Unknown State)>
+Traceback (most recent call last):
+  File "C:\Users\pankaj\anaconda3\envs\Myenv\Lib\site-packages\wandb\apis\normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pankaj\anaconda3\envs\Myenv\Lib\site-packages\wandb\apis\public\api.py", line 1106, in sweep
+    self._sweeps[path] = public.Sweep(self.client, entity, project, sweep_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pankaj\anaconda3\envs\Myenv\Lib\site-packages\wandb\apis\public\sweeps.py", line 91, in __init__
+    self.load(force=not attrs)
+  File "C:\Users\pankaj\anaconda3\envs\Myenv\Lib\site-packages\wandb\apis\public\sweeps.py", line 110, in load
+    raise ValueError("Could not find sweep {}".format(self))
+ValueError: Could not find sweep <Sweep pankuu21-indian-institute-of-technology-madras/DA6401_Assignment1/your_sweep_id (Unknown State)>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\Q7.py", line 149, in <module>
+    train_best_model()
+  File "C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\Q7.py", line 31, in train_best_model
+    best_config = get_best_config()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\pankaj\Desktop\dl\DA6401_Assignment1\final_DL\Q7.py", line 17, in get_best_config
+    sweep = api.sweep(f"{WANDB_ENTITY}/{WANDB_PROJECT}/{SWEEP_ID}")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pankaj\anaconda3\envs\Myenv\Lib\site-packages\wandb\apis\normalize.py", line 79, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "C:\Users\pankaj\anaconda3\envs\Myenv\Lib\site-packages\wandb\apis\normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pankaj\anaconda3\envs\Myenv\Lib\site-packages\wandb\apis\public\api.py", line 1106, in sweep
+    self._sweeps[path] = public.Sweep(self.client, entity, project, sweep_id)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pankaj\anaconda3\envs\Myenv\Lib\site-packages\wandb\apis\public\sweeps.py", line 91, in __init__
+    self.load(force=not attrs)
+  File "C:\Users\pankaj\anaconda3\envs\Myenv\Lib\site-packages\wandb\apis\public\sweeps.py", line 110, in load
+    raise ValueError("Could not find sweep {}".format(self))
+wandb.errors.errors.CommError: Could not find sweep <Sweep pankuu21-indian-institute-of-technology-madras/DA6401_Assignment1/your_sweep_id (Unknown State)>

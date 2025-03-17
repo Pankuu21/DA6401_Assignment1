@@ -1,0 +1,18 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Dataset: mnist
+Train set: 48000 examples
+Validation set: 12000 examples
+Test set: 10000 examples
+Test Accuracy: 0.9733
+Training with configuration: {'num_layers': 3, 'hidden_size': 64, 'activation': 'tanh', 'optimizer': 'rmsprop', 'learning_rate': 0.0005, 'weight_init': 'random', 'loss': 'cross_entropy', 'epochs': 10, 'batch_size': 32, 'momentum': 0.9, 'beta1': 0.9, 'beta2': 0.999, 'epsilon': 1e-08}
+Dataset: mnist
+Train set: 48000 examples
+Validation set: 12000 examples
+Test set: 10000 examples
+Test Accuracy: 0.9733
+Training with configuration: {'num_layers': 1, 'hidden_size': 256, 'activation': 'sigmoid', 'optimizer': 'momentum', 'learning_rate': 0.01, 'weight_init': 'Xavier', 'loss': 'mean_squared_error', 'epochs': 10, 'batch_size': 32, 'momentum': 0.9, 'beta1': 0.9, 'beta2': 0.999, 'epsilon': 1e-08}
+Dataset: mnist
+Train set: 48000 examples
+Validation set: 12000 examples
+Test set: 10000 examples
+Test Accuracy: 0.9733

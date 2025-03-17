@@ -1,0 +1,9 @@
+[34m[1mwandb[0m: Sorting runs by -summary_metrics.val_accuracy
+✅ Best run found: 0.90167_hl_3_bs_64_ac_sigmoid_wd_0.0005_lr_0.001_opt_nadam_wi_xavier
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Dataset: fashion_mnist
+Train set: 54000 examples
+Validation set: 6000 examples
+Test set: 10000 examples
+🎯 Test accuracy: 0.8808
+✅ Confusion matrix logged in WandB!
