@@ -37,7 +37,6 @@ def train_mnist(config):
     network_dims = [784] + [config.hidden_size] * config.num_layers + [10]
     print(f"Network architecture: {network_dims}")
 
-    # Initialize parameters using the specified method
     try:
         if config.weight_init.lower() == "xavier":
             parameters = {}

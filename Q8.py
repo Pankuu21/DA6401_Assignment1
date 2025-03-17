@@ -16,9 +16,7 @@ CLASS_NAMES = [
 
 
 def compute_loss(predictions, targets, loss_type="cross_entropy"):
-    """
-    Alternative implementation of loss computation with different variable names
-    """
+    
     num_samples = targets.shape[1]
     
     # Return loss based on specified type using ternary-like structure
@@ -35,7 +33,6 @@ def compute_loss(predictions, targets, loss_type="cross_entropy"):
         raise ValueError(f"Loss type '{loss_type}' not recognized. Must be {valid_types}.")
 
 def train_with_loss_function(criterion_type, configuration):
-    """Modified training function with alternative code structure"""
     # Start tracking with descriptive group name
     run_id = wandb.init(project=WANDB_PROJECT, entity=WANDB_ENTITY, 
                       group=f"Q8_{criterion_type}_loss_comparison")
@@ -78,37 +75,29 @@ def train_with_loss_function(criterion_type, configuration):
             for i in range(1, len(depths))
         })
 
-    # Setup optimization machinery
     opt_memory = {}
     iteration = 0
 
-    # Extract dataset dimensions
     sample_count = X_train.shape[1]
     chunk_size = configuration["batch_size"]
     chunks_per_epoch = sample_count // chunk_size
 
-    # Storage for training metrics
     training_metrics = []
     validation_scores = []
 
-    # Main training loop with nested batch processing
     for epoch_idx in range(configuration["epochs"]):
         # Shuffle dataset each epoch
         shuffle_idx = np.random.permutation(sample_count)
         X_randomized, Y_randomized = X_train[:, shuffle_idx], Y_train[:, shuffle_idx]
 
-        # Track epoch statistics
         epoch_error = 0
         epoch_correct = 0
 
-        # Process each mini-batch
         batch_idx = 0
         while batch_idx < chunks_per_epoch:
-            # Get current batch indices
             start_pos = batch_idx * chunk_size
             end_pos = min((batch_idx + 1) * chunk_size, sample_count)
             
-            # Extract batch data
             X_chunk = X_randomized[:, start_pos:end_pos]
             Y_chunk = Y_randomized[:, start_pos:end_pos]
 
@@ -182,7 +171,6 @@ def train_with_loss_function(criterion_type, configuration):
     return training_metrics
 
 def train_best_model_with_losses():
-    """Alternate implementation of comparison function with different control flow"""
     # Retrieve optimal configuration
     optimal_params = get_best_config()
 

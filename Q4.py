@@ -28,12 +28,7 @@ def lossfn(AL, Y, parameters=None, weight_decay=0):
 
 # Training function for Wandb sweep
 def train_fashion():
-    """
-    This is our training function that Wandb sweep will call.
-    It trains the model using the hyperparameters that Wandb gives us.
-    Alternative implementation with different control flow.
-    """
-    # Initialize wandb run differently - explicit init/finish pattern
+ 
     run = wandb.init(group="Q4_sweep", entity=WANDB_ENTITY, project=WANDB_PROJECT)
     config = run.config
     
@@ -70,14 +65,12 @@ def train_fashion():
         else:  # default to random
             parameters = initialize_parameters(layer_dims)
             
-        # Training setup with different variable names
         state = {}  # optimizer state
         time_step = 0
         sample_count = X_train.shape[1]
         mini_batch_size = config.batch_size
         iterations_per_epoch = sample_count // mini_batch_size
         
-        # Precompute batch indices for all epochs
         all_batch_indices = []
         for _ in range(config.epochs):
             indices = np.random.permutation(sample_count)
@@ -89,7 +82,6 @@ def train_fashion():
                 idx = end_idx
             all_batch_indices.append(epoch_batches)
         
-        # Training loop using while instead of for
         epoch = 0
         metrics = {"train_loss": [], "train_accuracy": [], "val_loss": [], "val_accuracy": []}
         

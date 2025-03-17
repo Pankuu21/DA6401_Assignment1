@@ -16,9 +16,7 @@ def get_best_config():
 def train_best_model():
     """
     Train the neural network using the best configuration from the sweep.
-    This version uses alternative variable names and code structure.
     """
-    # Start a new WandB tracking run
     experiment = wandb.init(project=WANDB_PROJECT, entity=WANDB_ENTITY, group="Q7_best_model")
 
     # Retrieve optimal hyperparameters
