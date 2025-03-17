@@ -1,3 +1,5 @@
+REPORT link https://wandb.ai/pankuu21-indian-institute-of-technology-madras/DA6401_Assignment1/reports/CS24M029-DA6401-Assignment-1--VmlldzoxMTcxMjIwMg?accessToken=5cy782mzph3ubnvfyl3gdshmfdb3lfm9r9kd0qzsajcfwjexlop43zajbnkqo5b1
+
 # Deep Learning Neural Network Implementation
 
 This repository contains an implementation of feedforward neural networks from scratch using NumPy, with integration for hyperparameter tuning and experiment tracking using Weights & Biases.
